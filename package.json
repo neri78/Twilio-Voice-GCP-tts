@@ -1,0 +1,31 @@
+{
+  "name": "twilio-voice-gcp-tts",
+  "version": "1.0.0",
+  "description": "Sample App for Voice Synthesize",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neri78/Twilio-Voice-GCP-tts.git"
+  },
+  "keywords": [
+    "Twilio",
+    "Voice",
+    "GCP",
+    "Text-to-Speech"
+  ],
+  "author": "neri78",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neri78/Twilio-Voice-GCP-tts/issues"
+  },
+  "homepage": "https://github.com/neri78/Twilio-Voice-GCP-tts#readme",
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^2.1.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "twilio": "^3.38.0"
+  }
+}
