@@ -4,11 +4,14 @@ Twilio Programmable VoiceとGoogle Cloud Text to Speech APIを利用するため
 
 ## 実行方法
 
+あらかじめGoogle Clould Text-to-Speechを使える状態にする必要があります。下記を参考にセットアップをします。
+
+[クイックスタート: クライアント ライブラリの使用](https://cloud.google.com/text-to-speech/docs/quickstart-client-libraries?hl=ja)
+
 パッケージのインストールを行います。
 ```
 npm install
 ```
-
 
 ターミナル、コマンドプロンプトを開き、事前にダウンロードしたGoogle Cloud Text to Speech APIを使用する際に必要な情報が保存されているサービスアカウントのファイルパスを<code>GOOGLE_APPLICATION_CREDENTIALS</code>という変数名で通しておきます。
 
@@ -53,4 +56,5 @@ node app.js
 
 ## 参考情報
 
+[TwilioにGoogle Could Text-to-Speechで話してもらうには？（Node.js）](https://dev.classmethod.jp/etc/twilio-voice-gcp-tts/)
 [Twilio 101 HandsOn JP](https://github.com/neri78/Twilio-HandsOn-101-JP)
