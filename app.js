@@ -49,7 +49,8 @@ app.post('/incoming', async (req, res) => {
         voice: 'Polly.Mizuki'
     }, "テストです。");
     // 生成した音声を再生させる。
-    twiml.play('https://daizen.ngrok.io/' + outputFileName);
+    // ローカルホストで試す場合は、ngrok(https://ngrok.com/)などのツールを使用し、生成されたurlを指定してください。
+    twiml.play('このプロジェクトをホストするドメイン名(https://example.com/' + outputFileName);
 
     //ヘッダ
     res.writeHead(200, {'Content-Type': 'text/xml'});
