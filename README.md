@@ -27,7 +27,7 @@ set GOOGLE_APPLICATION_CREDENTIALS=[PATH]
 
 なお、ターミナル、コマンドプロンプトを閉じてしまうと、再度パスを通す必要があります。
 
-次にアプリケーションを外部からアクセスできるドメインでホスティングする場合は、TwiML.PlayのURLをホストしているドメインに変更します。
+アプリケーションを外部からアクセスできるドメインでホスティングする場合は、<code>app.js</code>のtwiml.playで指定しているUrlをホストしているドメインに変更します。
 
 __https://example.comにホストする場合__
 ```
@@ -56,5 +56,6 @@ node app.js
 
 ## 参考情報
 
-[TwilioにGoogle Could Text-to-Speechで話してもらうには？（Node.js）](https://dev.classmethod.jp/etc/twilio-voice-gcp-tts/)
+[TwilioにGoogle Could Text-to-Speechで話してもらうには？（Node.js）](https://dev.classmethod.jp/etc/twilio-voice-gcp-tts/)  
+
 [Twilio 101 HandsOn JP](https://github.com/neri78/Twilio-HandsOn-101-JP)
