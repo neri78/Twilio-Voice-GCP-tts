@@ -72,6 +72,8 @@ app.post('/statuschanged', async(req, res) => {
             }
         });
     }
+    res.status(200).end();
+    
 });
 
 app.listen(3000, () => console.log('Listening on port 3000'));
